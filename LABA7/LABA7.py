@@ -4,7 +4,7 @@ import time
 from random import choice
 import random
 from random import randint
-import pygame
+
 p=0
 def scetch():
     global p
@@ -190,8 +190,7 @@ g1 = gun(10,200)
 bullet = 0
 balls = []
 enem =Enemy()
-enem_balls = []
-enem_bullet = 0
+
 def new_game(event=''):
     global gun, t1, screen1, balls, bullet,t2,bomb , enem_bullet , enem_balls
     t1.new_target("red")
